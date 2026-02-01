@@ -40,7 +40,7 @@ export default function CartContent() {
     useState<shippingFormInputs | null>(null);
 
   return (
-    <div className="flex flex-col items-center mt-12 gap-6">
+    <div className="flex flex-col gap-8 items-center  justify-center mt-12 ">
       <h1 className="text-2xl font-medium">Your Shopping Cart</h1>
 
       {activeStep === 1 &&
